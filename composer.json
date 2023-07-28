@@ -1,5 +1,5 @@
 {
-    "name": "vinelab/neoeloquent",
+    "name": "duvalg/neoeloquent",
     "description": "Laravel wrapper for the Neo4j graph database REST interface",
     "keywords": [
         "neo4j",
@@ -39,19 +39,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Vinelab\\NeoEloquent\\": "src/"
+            "duvalg\\NeoEloquent\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vinelab\\NeoEloquent\\Tests\\": "tests/"
+            "duvalg\\NeoEloquent\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Vinelab\\NeoEloquent\\NeoEloquentServiceProvider"
+                "Duvalg\\NeoEloquent\\NeoEloquentServiceProvider"
             ]
         }
     }
